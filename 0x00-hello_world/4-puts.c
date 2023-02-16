@@ -6,3 +6,5 @@ int main()
 	puts(MyStr);
 	return 0;
 }
+gcc 4-puts.c -o 4-puts
+./4-puts
