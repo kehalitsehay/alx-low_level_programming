@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Welcome to C programming language
+C is amazing programming language
