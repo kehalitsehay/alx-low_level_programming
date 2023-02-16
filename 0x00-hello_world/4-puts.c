@@ -1,12 +1,10 @@
 #include <stdio.h>
 /**
- * This is awesome c programing language
- * The return value is 0, which is good.
- *
- * */
+ * main - Entry
+ * Return: Always 0
+ */
 int main(void)
 {
-	char MyStr[] = "\"Programming is like building a multilingual puzzle";
-	puts(MyStr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
