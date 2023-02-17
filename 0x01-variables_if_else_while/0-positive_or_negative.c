@@ -6,6 +6,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ * if and else if condition
  */
 int main(void)
 {
@@ -13,20 +14,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	/* coditional statements goes here */
 	if (n > 0)
 	{
-		printf("%d", n);
-		printf(" is positive");
+		printf("%d is positive", n);
 	} else if (n == 0)
 	{
-		printf("%d", n);
-	       	printf(" is zero");
-	} else if (n <0)
+		printf("%d is zeo", n);
+	} else if (n < 0)
 	{
-		printf("%d", n);
-		printf(" is negative");
+		printf("%d is negative", n);
 	}
-
 	return (0);
 }
