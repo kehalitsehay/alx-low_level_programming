@@ -1,19 +1,19 @@
-#include "alx.h"
+#include "main.h"
+
 /**
- * main - Entry point
- *
- * Description: This task prints '_putchar\n'
- *
- * Return: Always 0 (success)
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowecase followed by a new line
+ * Return: void
  */
 void print_alphabet(void)
 {
-	char lowerLetters = 'a';
+	char letter = 'a';
 
-	while (lowerLetters <= 'z')
+	while (letter <= 'z')
 	{
-		_putchar(c);
-		i++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
