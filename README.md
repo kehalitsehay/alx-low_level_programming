@@ -1,1 +1,1 @@
-C is amazing programming language
+This repository is about basics of C programming language.
