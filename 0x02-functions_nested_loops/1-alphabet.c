@@ -1,20 +1,19 @@
-#include "alx.h>
+#include "alx.h"
 /**
- * main - entry point
+ * main - Entry point
  *
- * description: this project prints the lower slphabets
+ * Description: This task prints '_putchar\n'
  *
+ * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char c;
+	char lowerLetters = 'a';
 
-	c = 'a';
-
-	while (c <= 'z')
+	while (lowerLetters <= 'z')
 	{
 		_putchar(c);
-		c++;
+		i++;
 	}
 	_putchar('\n');
-	return (0);
+}
