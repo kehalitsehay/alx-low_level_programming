@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - entry point
- *
- * description: This task compare an input characte(upercase etters)
- *
- * return 0 always successful
+ * _isupper - checkes if a char is uppercase letters
+ * @c: is uppercase char
+ * description: _isupper checks the uppercase letter
+ * Return: void
  */
 int _isupper(int c)
 {
@@ -20,4 +19,3 @@ int _isupper(int c)
 	}
 	return (0);
 }
-i
