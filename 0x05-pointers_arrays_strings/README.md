@@ -1,1 +1,1 @@
-Pointers, arrays and strings
+Pointers, arrays and strings. They are very crutial for c programmer.
