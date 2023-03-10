@@ -1,11 +1,12 @@
-# C - Static libraries
-In this project, I learned what static libraries are and practiced creating and using them with ar, ranlib, and nm.
+#ifndef MAIN_H
+#define MAIN_H
 
-##Tests ✔️
-##Tasks 📃
-0. A library is not a luxury but one of the necessities of life
-
-libholberton.a: C Static library containing all the functions listed below:
+/*
+ * File: main.h
+ * Auth: Kehali Tsehay
+ * Desc: Header file containing the prototypes of all functions
+ *       included in the static library libmain.a.
+ */
 
 int _putchar(char c);
 int _islower(int c);
@@ -27,8 +28,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-holberton.h: Header file containing the prototypes of all functions included in libholberton.a.
 
-1. Without libraries what have we? We have no past and no future
+#endif
 
-create_static_lib.sh: Bash script that creates a static library called liball.a from all the .c files in the current directory.
