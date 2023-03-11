@@ -3,7 +3,7 @@ In this project, I learned what static libraries are and practiced creating and 
 
 ## Tests ✔️
 ## Task 📃
-+ 0. A library is not a luxury but one of the necessities of life
++ __0. A library is not a luxury but one of the necessities of life__
   - __[libmy.a](https://github.com/kehalitsehay/alx-low_level_programming/tree/main/0x09-static_libraries/)__: C Static library containing all the functions listed below:
     * int _putchar(char c);
     - int _islower(int c);
@@ -26,5 +26,5 @@ In this project, I learned what static libraries are and practiced creating and 
     - char *_strpbrk(char *s, char *accept);
     * char *_strstr(char *haystack, char *needle);
   - __[main.h](https://github.com/kehalitsehay/alx-low_level_programming/tree/main/0x09-static_libraries/)__: Header file containing the prototypes of all functions included in libholberton.a.
-+ 1. Without libraries what have we? We have no past and no future
++ __1. Without libraries what have we? We have no past and no future__
   - __[create_static_lib.sh](https://github.com/kehalitsehay/alx-low_level_programming/tree/main/0x09-static_libraries/)__: Bash script that creates a static library called liball.a from all the .c files in the current directory.
