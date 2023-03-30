@@ -1,6 +1,7 @@
 # C - Static libraries
 In this project, I learned what static libraries are and practiced creating and using them with ar, ranlib, and nm.
 
+
 ## Tests ✔️
 ## Task 📃
 + __0. A library is not a luxury but one of the necessities of life__
@@ -28,3 +29,8 @@ In this project, I learned what static libraries are and practiced creating and 
   - __[main.h](https://github.com/kehalitsehay/alx-low_level_programming/tree/main/0x09-static_libraries/)__: Header file containing the prototypes of all functions included in libholberton.a.
 + __1. Without libraries what have we? We have no past and no future__
   - __[create_static_lib.sh](https://github.com/kehalitsehay/alx-low_level_programming/tree/main/0x09-static_libraries/)__: Bash script that creates a static library called liball.a from all the .c files in the current directory.
+
+## The steps to create a static library are
+  + gcc -c -Wall -Werror -Wextra *.c
+  + ar -rc libname.a *.o
+  + ranlib libname.a
